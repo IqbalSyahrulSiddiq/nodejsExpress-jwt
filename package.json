@@ -1,0 +1,37 @@
+{
+  "name": "nodejsexpress-jwt",
+  "version": "1.0.0",
+  "description": "auth nodejs express and jwt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IqbalSyahrulSiddiq/nodejsExpress-jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "IqbalSyahrulSiddiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IqbalSyahrulSiddiq/nodejsExpress-jwt/issues"
+  },
+  "homepage": "https://github.com/IqbalSyahrulSiddiq/nodejsExpress-jwt#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.19.0"
+  }
+}
